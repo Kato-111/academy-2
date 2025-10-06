@@ -151,6 +151,51 @@ main {
   left: 0;
 }
 
+
+.demo-form {
+  margin-top: 1.5rem;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: #fff;
+}
+
+.input-group textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+  background-color: #f8f9ff;
+  transform: scale(1.02);
+}
+
+.input-group input[type="email"]:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.2);
+}
+
+.input-group textarea:focus {
+  border-color: #fd7e14;
+  box-shadow: 0 0 0 3px rgba(253, 126, 20, 0.2);
+}
+
 footer {
   background: #333;
   color: white;
